@@ -1,6 +1,6 @@
 {
 	"name": "macos-release",
-	"version": "2.7.0",
+	"version": "2.7.3",
 	"description": "Get the name and version of a macOS release from the Darwin version",
 	"license": "MIT",
 	"repository": "sindresorhus/macos-release",
@@ -11,9 +11,10 @@
 		"url": "https://sindresorhus.com"
 	},
 	"engines": {
-		"node": ">=6"
+		"node": ">=16"
 	},
 	"scripts": {
+		"test": "ava"
 	},
 	"files": [
 		"index.js",
@@ -32,8 +33,6 @@
 		"version"
 	],
 	"devDependencies": {
-		"ava": "^1.4.1",
-		"tsd": "^0.7.1",
-		"xo": "^0.24.0"
+		"ava": "^1.4.1"
 	}
 }
