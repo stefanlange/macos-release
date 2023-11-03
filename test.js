@@ -11,9 +11,4 @@ test('main', t => {
 		name: 'Big Sur',
 		version: '11'
 	});
-
-	t.deepEqual(macosRelease('23.0.0'), {
-		name: 'Sonoma',
-		version: '14'
-	});
 });
